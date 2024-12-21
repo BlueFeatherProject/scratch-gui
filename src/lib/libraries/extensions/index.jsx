@@ -46,6 +46,9 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import minecraftImage from './minecraft/logo_main.png';
+import minecraftButtonImage from './minecraft/logo_small.png';
+
 export default [
     {
         name: (
@@ -317,5 +320,18 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    },
+    {
+        name: 'Minecraft',
+        extensionId: 'minecraft',
+        collaborator: 'tackex@github',
+        iconURL: minecraftImage,
+        insetIconURL: minecraftButtonImage,
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: false,
+        bluetoothRequired: false,
+        helpLink: 'https://scratch.mit.edu/wedo'
+
     }
 ];
